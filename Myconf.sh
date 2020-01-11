@@ -38,4 +38,5 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 echo '创建仓库文件夹' && mkdir -p $HOME/Clone && echo '创建成功' && echo '切换到仓库文件夹' && cd $HOME/Clone && echo '切换成功'
 echo '开始下载配置文件'
 git clone 'https://github.com/tztnuaji/Personal-profile.git' && echo '配置文件下载完成，但有些涉及到目录的变量仍需手动更改，请修改后手动放置到合适的位置'
+echo '另外自行配置xfce4桌面，xfce4终端配色是#1B1D24，使用主题是matcha-dark-azul'
 echo '全部事务已完成'
